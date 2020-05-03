@@ -20,7 +20,7 @@ public class SpringPracaDomowa6Application {
     {
         List<Movie> movies = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
-            movies.add(new Movie("Film nr "+(i+1), 1992+i,"Producer " + (i+1)));
+            movies.add(new Movie(i,"Film nr "+(i+1), 1992+i,"Producer " + (i+1)));
         }
         return movies;
     }
